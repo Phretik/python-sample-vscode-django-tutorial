@@ -33,7 +33,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost:8000',
     '127.0.0.1:8000',
-    'https://djangotutapp.onrender.com',
+    'djangotutapp.onrender.com',
 ]
 
 # Application definition
