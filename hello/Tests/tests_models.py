@@ -11,7 +11,7 @@ class LogMessageTests(TestCase):
         """""
         return LogMessage.objects.create(
             message="This is a test message.",
-            Log_date=timezone.now()
+            log_date=timezone.now()
         )
 
     def test_logmessage_creation(self):
@@ -19,4 +19,4 @@ class LogMessageTests(TestCase):
         Test the creation of the log message instance.
         """""
         log_message = self.create_logmessage()
-        self.assertTrue(isinstance(log_message, log_message))
+        self.assertTrue(isinstance(log_message, LogMessage))
